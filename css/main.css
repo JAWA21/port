@@ -1,0 +1,271 @@
+/*------ Document -----*/
+
+html{
+	background: #7a7265;
+}
+
+body {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+	font: .75em/1.5em Helvetica, Arial, sans-serif;
+}
+
+ul, h1, h2, h3, h4, h5, h6{
+	font-size: 1em;
+		margin: 0;
+		list-style: none;
+}
+
+h1{
+	background: url("../images/logo.gif");	
+	width: 317px;
+	height: 71px;
+	float: left;
+	text-indent: -99999px;
+	margin: 65px 0px 0px 65px;
+}
+
+h2{
+	font-size: 2em;
+}
+
+h3{
+	font-size: 1.5em;
+}
+
+h4{
+	font-size: 1.083em;
+}
+
+header{
+	background: url("../images/header-bg.jpg");
+	width: 960px;
+	height: 210px;
+}
+	
+	
+
+/*------ Nav -----*/
+nav{
+	float: right;
+	width: 277px;
+	margin: 85px 0px 0px 65px;
+	font-weight: bold;
+/*	font-style: capitalize; */
+}
+
+nav ul{
+	color: #000;
+	padding: 0;
+}
+
+nav ul li{
+	display: inline;
+	padding: 5px;
+}
+
+.current{
+	background: #bd3600;
+	color: #fff;
+	padding: 5px;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+	width: 69.25px;
+	height: 50px;
+}
+
+nav a:hover{
+	color: #bd3600;
+	background: none;
+}
+
+
+
+/*------ Main Content -----*/
+#main_content{
+	background: url("../images/main_content-bg.jpg");
+	width: 960px;
+	overflow: hidden;
+}
+	
+#banner{
+	background: url("../images/banner.jpg");
+	width: 890px;
+	height: 220px;
+	margin-left: 35px
+}
+
+.column{
+	width: 276px;
+	margin-top: 25px;
+	float: left;
+	margin-left: 15px;
+}
+
+#first, .primary-content{
+	float: left;
+	margin-left: 65px;
+}
+
+/*.page-flip, page-flip-home{
+	background: url("../images/page-flip.gif");
+	width: 242px;
+	height: 122px;
+	float: left;
+} */
+
+.section_title{
+	margin-bottom: 15px;
+}
+
+.line{
+	margin: 10px;
+	padding: 0;
+	color: #7d7161;
+}
+
+.left{
+	float: left;
+	margin: 25px;
+	border: solid 5px #fff;
+}
+
+.news-date{
+	float: left;
+	margin-right: 25px;
+}
+
+.month{
+	font-weight: bold;
+}
+
+.day{
+	font-size: 1.75em;
+	font-weight: bold;
+	color:  #bd3600;
+}
+
+.year{
+	font-size: .9em;
+}
+
+.alert{
+	font-size: .9em;
+	color: #ba3600;
+}
+
+h4 a{
+	color: #04627c;
+	
+}
+
+.news-item p{
+	margin-top: 0;
+}
+
+p{
+	margin: 15px;
+	color: #7d7161;
+}
+
+
+
+
+/*------ Footer -----*/
+footer{
+	background: url("../images/footer-bg.jpg");
+	width: 960px;
+	height: 77px;
+	font-size: .917em;
+}
+
+footer ul{
+	
+	
+}
+
+footer li{
+	color: #363227;
+	display: inline;
+	font-weight: bold;
+	margin: 0 auto;
+	padding-top: 92px;
+}
+
+
+
+/*------ Contact -----*/
+.primary-content{
+	width: 560px;
+	float: left;
+}
+
+.sidebar{
+	width: 240px;
+	float: left;
+}
+
+.sidebar img{
+	border: solid 5px #fff;
+	margin: 10px;
+}
+
+.sidebar p{
+	margin: 0px 5px 15px;
+}
+
+h2{
+	margin: 5px;
+}
+
+h5{
+	padding: 5px;
+}
+
+fieldset{
+	border: none;
+}
+
+.contact{
+	margin-left: 45px;
+	padding: 0;
+}
+
+
+fieldset label{
+	float: left;
+	/* text-align: right; */
+	color: #7d7161;
+	padding-right: 5px;
+}
+
+input{
+	width: 150px;
+	margin-bottom: 3px;
+}
+
+textarea{
+	width: 300px;
+}
+
+input[type="button"]{
+	background-color: #ba3600;
+	margin-top: 10px;
+	width: 55px;
+	height: 25px;
+	color: #fff;
+	font-size: 10px;
+	line-height: 10px;
+}
+
+input[id="Phone"]{
+	margin-left: 30px;
+}
+
+input[id="Email"]{
+	margin-left: 28px;
+}
