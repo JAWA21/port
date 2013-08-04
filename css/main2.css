@@ -5,7 +5,6 @@ CSS Colors
 */
 
 /*------ Document -----*/
-
 body {	
 	font-family: 'Helvetica-neue', Arial, sans-serif;
 	color: #fff;
@@ -27,14 +26,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 h1, h2, h3, h4 {
-	color: #3E606F;
+	color: #EAEAEA;
 }
-
-
-/*article {
-	max-width: 600px;
-	padding-left: 30px;
-}*/
 
 strong {
 	color: #9d1c1c;
@@ -63,23 +56,13 @@ strong {
 
 
 /*------ Nav -----*/
-
-
-nav {
-	min-height: 150px;
-	border: 0;
+.side-nav {
+	font-family: "Futura", Georgia, Monospace;
+	font-size: 2em;
 }
 
-
-
-.current{
-	background: #bd3600;
-	color: #fff;
-	padding: 5px;
-}
-
-a{
-	color: #fff;
+.side-nav li a{
+	color: #613e97;
 }
 
 a:hover{
@@ -91,12 +74,6 @@ a:visited{
 	color: #dedede;
 }
 
-/*.item {
-  width: 220px;
-  margin: 10px;
-  float: left;
-}
-*/
 
 /*------ Contact -----*/
 #contact-form input[type="text"],
@@ -140,7 +117,6 @@ a:visited{
 }
 
 /*------ Footer -----*/
-
 /*.footer {
 	max-width: 980px;
 	margin: 0 auto;
